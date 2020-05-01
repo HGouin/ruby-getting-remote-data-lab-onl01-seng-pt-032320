@@ -2,6 +2,9 @@ require 'net/http'
  require 'json'
 
 class GetRequester
+  def initialize(URL=)
+    @URL = URL
+  end
 
 
 def get_response_body
