@@ -13,3 +13,4 @@ end
 def parse_json
 end
 end
+get_requester = GetRequester.new
