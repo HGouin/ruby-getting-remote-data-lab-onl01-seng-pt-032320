@@ -1,6 +1,7 @@
 require 'net/http'
  require 'open-uri'
  require 'json'
+ require "HTTParty"
 
 class GetRequester
 
