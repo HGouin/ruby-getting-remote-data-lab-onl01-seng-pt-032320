@@ -20,5 +20,5 @@ class GetRequester
 end
 
 end
-programs = GetPrograms.new
+get_response_body = GetRequester.new
 puts programs.program_school.uniq
